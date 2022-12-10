@@ -473,7 +473,127 @@ Click on mydomain.com, Users then Domain Users.
 <img src="https://i.imgur.com/Pw9rlCl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-All created users get added to this group. Now any non administator can log in.
+All created users get added to this group. Now any non administator can log in so let's create some users.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/ayQjHqC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Now make sure you're logged into DC-1 as jane_admin or log in if not. We will create a bunch of users.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/Jm5FbKj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Open PowerShell ISE as Administrator by right clicking.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/UELSHrP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Open a new script and write the script shown.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/jzGvkL2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Click run script.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/1pxggxz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Random users are being created.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/PWT31ps.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Open Active Directory Users and Computers.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/BB0dZA8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Click on the _EMPLOYEES Organizational Unit created earlier and notice all the users created. All users will have passwords of Password1.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/kgiWHsW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Pick a user and right click to go to properties. Then go to the account tab and copy the username. Go to Client-1.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/cWU0Fbu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Logout of Client-1 as jane doe.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/mChp7QM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Log back into Client-1 as the user you chose.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/pR29mRD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Login was successful.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/l4ePhVp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+kim.big is logged into Client-1 after being created as a user on DC-1.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/7PH8k3K.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Everytime a new user logs in, a new folder will be created on the PC.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/qNirfrt.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+If too many login attempts are made, you can click properties on the user and go to account tab and click unlock and apply.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/4YN1qzJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+You can also reset password or disable account by right clicking.
 </p>
 <br />
 
@@ -509,3 +629,106 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 </p>
 <br />
 
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+
+<br />
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
